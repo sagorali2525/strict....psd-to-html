@@ -1,0 +1,164 @@
+/* =====================================
+    Template Name: Minimo || HTML Template
+    Author: md sagor ali 
+    Version: 1 0.0
+    Created: 24 January 2021
+    File Description: Main Css file of the template   
+
+========================================*/
+
+/*=======================================
+    01.General
+      
+    
+========================================*/
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #999999;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family:'Lato', sans-serif;;
+    font-weight: 700;
+}
+h2{
+    font-size:40px;
+}
+h4{
+    font-size:20px;
+}
+p{
+    font-family:'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #e3e3e4;
+    margin: 0;
+    padding: 0;
+}
+a{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #2d3950;
+    text-decoration: none;
+}
+/* ======================================
+        HEADER STYLE START HERE
+========================================= */
+header{
+    background-color: #f6f9f9;
+    padding: 25px 0;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 40%;
+}
+.nevigation-menu{
+    width: 70%;
+}
+nav ul{
+    display: flex;
+    justify-items: flex-end;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    font-family: 'Lato Bold';
+    padding:  0 22px;
+    font-size: 13px;
+    color: #2d3950;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    color: #15a4fa;
+    transition: 0.3s all ease-in-out;
+
+}
+/* ======================================
+        HEADER STYLE END HERE
+========================================= */
+
+/* ======================================
+        BANNER STYLE START HERE
+========================================= */
+
+#banner{
+    background-image: url(../images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.banner-content{
+    text-align: center;
+}
+.banner-content h2{
+    font-size: 120px;
+    color: #ffffff;
+    margin: 10px  0;
+}
+.banner-content button{
+    height: 60px;
+    width: 170px;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid #15a4fa;
+}
+
+.button button{
+    border: none ;
+    border: 1px solid  #15a4fa;
+    padding: 18px 0 ;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #e3e3e4;
+    background-color: transparent;
+    margin-top: 50px;
+}
+.button {
+    text-align: center;
+}
+.button button:hover{
+    background-color: #3885c5;
+    color: #ffffff;
+    transition: 0.3s all ease-in-out;
+}
+.button button :focus{
+    outline: none;
+    cursor: pointer;
+}
+.button button{
+    outline: none;
+    cursor: pointer;
+}
+/* ======================================
+        BANNER STYLE END HERE
+========================================= */
+
